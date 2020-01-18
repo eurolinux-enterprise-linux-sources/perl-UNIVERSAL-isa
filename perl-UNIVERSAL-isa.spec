@@ -1,6 +1,6 @@
 Name:           perl-UNIVERSAL-isa
 Version:        1.20120726
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Hack around module authors using UNIVERSAL::isa as a function
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -49,6 +49,9 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.20120726-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.20120726-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
