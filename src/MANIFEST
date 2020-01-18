@@ -1,0 +1,11 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/UNIVERSAL/isa.pm
+t/basic.t
+t/bugs.t
+t/warnings.t
